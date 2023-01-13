@@ -1,38 +1,54 @@
-.App {
+
+.main {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav{
+  background-color: rgba(255, 255, 255, 0.151);
+  box-shadow: 1px 1px 10px gainsboro;
+  padding: 10px 50px;
+}
+.logo{
+  font-size: 2.5rem;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 2px 2px 2px dodgerblue;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.heading{
+  margin:20px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,auto);
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.btn{
+  all: unset;
+  padding: 10px 20px;
+  box-shadow: 1px -1px 5px gainsboro;
+  border-radius: 10px;
+  margin: 30px;
+  margin-left:0px ;
+  font-size: 1.5rem;
+  text-shadow: 2px 2px 2px deepskyblue;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.function{
+  position: relative;
+  left: 0px;
+}
+.class{
+  position: relative;
+  right: 0px;
+}
+.btn:hover{
+  background-color: rgba(247, 247, 247, 0.120);
+}
+.cardfun{
+  width: 550px;
+  height: 350px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.151);
+  padding: 4% 5px;
+  text-align: center;
+  font-size: 1.5rem;
 }
