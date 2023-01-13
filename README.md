@@ -2,5 +2,5 @@
 * Components
   * functional Comp.
   * Class Comp.
-  * Styling
-  * JSX
+* Styling
+* JSX
